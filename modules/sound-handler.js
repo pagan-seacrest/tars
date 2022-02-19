@@ -4,9 +4,6 @@ const ytSearch = require("yt-search");
 const yt = require("ytdl-core");
 const {collection, sound} = require("../commands.json");
 
-const l_B = "В";
-const l_b = "в";
-
 class SoundEventHandler {
   
   constructor({content = "", member, channel, reply, guild}) {
@@ -51,13 +48,12 @@ class SoundEventHandler {
 
     if (video) {  
       const stream = yt(video.url, {filter: "audioonly"});
-      console.log(video);
-
+      
       connection.subscribe(player);
       connection.rejoin();
       player.play(Voice.createAudioResource(stream));
-
-      // await this.reply(`${video.title}`);
+      
+      // await this.channel.send(`${video.title}`);
     } else {
       this.channel.send("Ничего не нешел, сорян");
     }
