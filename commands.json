@@ -1,0 +1,33 @@
+{
+  "prefix": "t.",
+  "sound": {
+    "play": "_play",
+    "args": [],
+    "stop": "_stop",
+    "pause": "_pause",
+    "next": "_next",
+    "prev": "_prev"
+  },
+  "collection": [
+    {
+      "name": "_play",
+      "args": []
+    },
+    {
+      "name": "_stop",
+      "args": null
+    },
+    {
+      "name": "_next",
+      "args": null
+    },
+    {
+      "name": "_prev",
+      "args": null
+    },
+    {
+      "name": "_pause",
+      "args": null
+    }
+  ]
+}

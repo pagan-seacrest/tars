@@ -1,0 +1,26 @@
+{
+  "name": "tars-discord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon main.js",
+    "start": "node main.js"
+  },
+  "author": "pagan",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.7.0",
+    "@discordjs/voice": "^0.8.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^4.4.1",
+    "libsodium": "^0.7.9",
+    "libsodium-wrappers": "^0.7.9",
+    "opusscript": "^0.0.8",
+    "tweetnacl-ts": "^1.0.3",
+    "yt-search": "^2.10.3",
+    "ytdl-core": "^4.10.1"
+  }
+}
